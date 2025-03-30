@@ -14,8 +14,8 @@ public class FunRestController {
 
     @Autowired
     public FunRestController(
-            @Qualifier("baseballCoach") Coach myCoach,
-            @Qualifier("baseballCoach") Coach anotherCoach
+            @Qualifier("aquatic") Coach myCoach,
+            @Qualifier("aquatic") Coach anotherCoach
     ) {
         System.out.println("In constructor: " + getClass().getSimpleName());
         this.myCoach = myCoach;
