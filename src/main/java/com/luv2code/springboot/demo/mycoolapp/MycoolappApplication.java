@@ -6,6 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+/* @SpringBootApplication(
+		scanBasePackages = {"com.luv2code.springboot.demo.mycoolapp", "utils"}
+) */
+
 @SpringBootApplication
 public class MycoolappApplication {
 
