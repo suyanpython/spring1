@@ -1,6 +1,5 @@
 package com.luv2code.springboot.demo.mycoolapp;
 
-import com.luv2code.springboot.demo.mycoolapp.dao.AccountDAO;
 import com.luv2code.springboot.demo.mycoolapp.dao.StudentDAO;
 import com.luv2code.springboot.demo.mycoolapp.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -124,7 +123,4 @@ public class MycoolappApplication {
 		System.out.println("Saved the student. Generated id:" + tempStudent.getId());
 	}
 
-	private void demoTheBeforeAdvice(AccountDAO theAccountDAO) {
-		theAccountDAO.addAccount();
-	}
 }

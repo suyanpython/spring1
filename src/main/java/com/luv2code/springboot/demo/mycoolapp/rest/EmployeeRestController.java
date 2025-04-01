@@ -2,7 +2,6 @@ package com.luv2code.springboot.demo.mycoolapp.rest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.luv2code.springboot.demo.mycoolapp.dao.EmployeeDAO;
 import com.luv2code.springboot.demo.mycoolapp.entity.Employee;
 import com.luv2code.springboot.demo.mycoolapp.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
