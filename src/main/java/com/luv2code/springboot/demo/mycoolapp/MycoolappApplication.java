@@ -29,7 +29,7 @@ public class MycoolappApplication {
 		return runner ->{
 			//createStudent(studentDAO);
 			//demoTheBeforeAdvice(theAccountDAO);
-			createMultipleStudents(studentDAO);
+			//createMultipleStudents(studentDAO);
 			//readStudent(studentDAO);
 			//queryForStudents(studentDAO);
 			//queryForStudentsByLastName(studentDAO);
