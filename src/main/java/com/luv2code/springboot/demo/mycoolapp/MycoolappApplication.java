@@ -1,5 +1,4 @@
 package com.luv2code.springboot.demo.mycoolapp;
-
 import com.luv2code.springboot.demo.mycoolapp.dao.StudentDAO;
 import com.luv2code.springboot.demo.mycoolapp.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
